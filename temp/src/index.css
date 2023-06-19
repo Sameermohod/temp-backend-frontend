@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-button{
+    @apply rounded   p-2  px-4   bg-[#ffaf61]  shadow  outline-none active:bg-amber-500  
+  }
+  
+  input,
+select,
+textarea{
+    @apply rounded  w-[500px]   border  p-2  outline-none   ring-indigo-300  focus:ring;
+}
+
+body{
+  background-image: linear-gradient(#84c6be,#7dada7,#60726f);
+  background-size: cover;
+  height: 100vh;
+}
+.main-card{
+  background-image: linear-gradient(to top left, #FFB800 ,#030000);
+}
+.mainm-card{
+  background-image: linear-gradient(to top left, #00fff0 ,#030000);
+}
+Link.active{
+     font-weight: bold;  
+}
+.mains-card{
+  background-image: linear-gradient(to top left, #BBB9BA ,#174706);
+}
+
+
